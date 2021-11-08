@@ -1,7 +1,7 @@
 // required dependencies
 const router = require('express').Router();
 
-const { notes } = require('../db/db.json');
+const  notes  = require('../db/db.json');
 const { findById, createNote, validateNote } = require('../lib/notes');
 // route to request notes
 router.get('/notes', (req, res) => {
@@ -19,7 +19,8 @@ router.get('/notes:id', (req, res) => {
 });
 // route to post a new note
 router.post('/notes', (req, res) => {
-    req.body.id = notes.length.toString();
+    console.log("notes here", notes)
+    req.body.id = notes.length;
 
     if (!validateNote(req.body)) {
         res.status(404).send('This note is not properly formatted');
