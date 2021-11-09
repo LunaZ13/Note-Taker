@@ -20,7 +20,7 @@ router.get('/notes:id', (req, res) => {
 // route to post a new note
 router.post('/notes', (req, res) => {
     console.log("notes here", notes)
-    req.body.id = notes.length;
+    req.body.id = notes.length +1;
 
     if (!validateNote(req.body)) {
         res.status(404).send('This note is not properly formatted');

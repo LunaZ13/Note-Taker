@@ -1,29 +1,37 @@
-{
-  "notes": [
-    {
-      "title": "Finish Homework",
-      "text": "Finish module assignment for class",
-      "id": 1
-    },
-    {
-      "title": "Call Dentist",
-      "text": "Call dental office to schedule semi-annual teeth cleaning",
-      "id": 2
-    },
-    {
-      "title": "ejhbwe",
-      "text": "edhwjebfjw",
-      "id": 3
-    },
-    {
-      "title": "asdf",
-      "text": "df",
-      "id": 3
-    },
-    {
-      "title": "asdf",
-      "text": "dfff",
-      "id": 4
-    }
-  ]
-}
+[
+  {
+    "title": "Finish Homework",
+    "text": "Finish module assignment for class",
+    "id": 1
+  },
+  {
+    "title": "Call Dentist",
+    "text": "Call dental office to schedule semi-annual teeth cleaning",
+    "id": 2
+  },
+  {
+    "title": "ejhbwe",
+    "text": "edhwjebfjw",
+    "id": 3
+  },
+  {
+    "title": "asdf",
+    "text": "df",
+    "id": 3
+  },
+  {
+    "title": "asdf",
+    "text": "dfff",
+    "id": 4
+  },
+  {
+    "title": "dfds",
+    "text": "sdfsdf",
+    "id": 6
+  },
+  {
+    "title": "fsdfsdfsdfsd",
+    "text": "sdfsdfsdf",
+    "id": 7
+  }
+]
