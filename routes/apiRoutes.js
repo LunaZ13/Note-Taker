@@ -1,8 +1,8 @@
 // required dependencies
 const router = require('express').Router();
 
-const  notes  = require('../db/db.json');
-const { findById, createNote, validateNote } = require('../lib/notes');
+let  notes  = require('../db/db.json');
+const { findById, createNote, validateNote, deleteNote } = require('../lib/notes');
 // route to request notes
 router.get('/notes', (req, res) => {
     let results = notes;
@@ -29,5 +29,14 @@ router.post('/notes', (req, res) => {
         res.json(note);
     }
 });
+
+router.delete('/notes/:id', (req, res) => {
+   // console.log(req.params, notes)
+    
+    const newNotes = deleteNote(req.params.id, notes);
+    notes = newNotes
+    res.json(newNotes)
+});
+
 
 module.exports = router;
