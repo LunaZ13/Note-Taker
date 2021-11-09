@@ -10,9 +10,9 @@ I was tasked with building the back end and connecting to a front end app. The a
 
 ## Usage:
 1. Open terminal and type in "node server.js", then navigate to localhost:3002 in your browser.
-2. Click on the following link or see demo below.
+2. Click on the following link or see demo below. https://damp-shelf-34392.herokuapp.com/
 
-https://user-images.githubusercontent.com/86627336/138976440-d2ad8094-58fb-4dab-b579-4287b2bb152c.mp4
+![Note Taker](https://user-images.githubusercontent.com/86627336/140842165-c5b1a79d-7e6d-40ec-8699-f22ff5837f3a.gif)
 
 ## Contributing:
 Feel free to fork project and reach out.
